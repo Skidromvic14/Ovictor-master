@@ -1,0 +1,136 @@
+*{ /* reiniciar algunos estilos del navegador*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 70%;
+    background-color: rgb(67, 199, 244);
+    color: rgb(0, 88, 131);
+}
+nav, header, .contenedor, footer{
+    max-width: 90%;
+    margin: auto;
+    border-radius: 0.4em;
+}
+nav{
+    background-color: rgb(0, 88, 131);
+    text-align: center;
+}
+header{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    height: 70%;
+  background-color: white;
+}
+.central{
+    height: 70%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    
+}
+footer{
+    background-color: white;
+    text-align: center;
+}
+aside{
+    background-color: white;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+/* Menu*/
+.menu li{
+    display:inline-block ;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: ghostwhite;
+    position: absolute;
+
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: rgb(179, 179, 179);
+}
+h3 {
+    background-color: white;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}   
+h4{
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+    text align-self: .central
+    
+}
+h2{
+    font-size: 20px;
+    color: black;
+    background: white;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+    
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 25px;
+
+   }
+h1 p{
+    font-family: Arial, Helvetica, sans-serif
+     font-size: 25px;
+    line-height: 29px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+h4{
+    font-size: 30px;
+    background-color: white;
+    color: teal;
+    text-align: center;
+    padding: 0.8mm;
+}
+p{
+    font-size: 15px;
+    color: black;
+}
+h6{
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    tab-size: 30px;
+     display: -ms-flexbox;
+}
+h4{
+    margin: 30mm;
+    left: 40mm;
+}
